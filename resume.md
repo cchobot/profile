@@ -1,7 +1,7 @@
 # Chris Chobot
 
-Newport, RI  
-chobot1220@gmail.com  
+Newport, RI
+chobot1220@gmail.com
 LinkedIn: https://www.linkedin.com/in/chris-chobot-08961a382/ | GitHub/Portfolio: https://github.com/cchobot/profile
 
 ## Target Roles
@@ -10,7 +10,14 @@ Product Support Engineer, Technical Support Engineer, Application Support Specia
 
 ## Professional Summary
 
-Technical Support Specialist with 15+ years of experience supporting healthcare, e-commerce, ERP, and other complex business applications. Strong background in Tier 2+ troubleshooting, SQL-based investigation, API and integration debugging, log analysis, customer communication, documentation, onboarding, and support operations. Known for translating technical issues into clear next steps for customers and actionable reports for engineering or operations teams.
+Technical Support Specialist with 15+ years of experience supporting healthcare, e-commerce, ERP, SaaS, and other complex business applications. Strong background in Tier 2+ troubleshooting, SQL-based investigation, API and integration debugging, log analysis, customer communication, documentation, onboarding, and support operations.
+
+## Selected Product Support Evidence
+
+- [Product Support Fit / Evidence Map](product-support-fit.md)
+- [Support Case Studies](support-case-studies/)
+- [Support Artifacts](support-artifacts/)
+- [Time Tracker script](helpful-scripts/time-tracker/)
 
 ## Core Skills
 
@@ -46,6 +53,7 @@ Technical Support Specialist with 15+ years of experience supporting healthcare,
 ### Communication & Collaboration
 
 - Clear written and verbal customer communication
+- Fluent in Spanish
 - Knowledge base and support documentation development
 - Cross-functional collaboration with support, engineering, operations, and client stakeholders
 - Peer mentorship, onboarding support, and knowledge sharing
@@ -69,7 +77,7 @@ Technical Support Specialist with 15+ years of experience supporting healthcare,
 Private SaaS product project | 2026
 
 - Identified a recurring client need around HIPAA readiness, documentation, vendor tracking, staff training, and operational evidence, then used that need as the basis for exploring what it would take to build a SaaS product.
-- Built a Next.js, React, and TypeScript application with Supabase/Postgres-backed workspace data, Vercel deployment, and organization-scoped workflows.
+- Built a Next.js, React, and TypeScript application with Supabase/Postgres-backed workspace data, Vercel deployment, and organization-scoped product/support workflows.
 - Implemented Clerk-based authentication, organization membership, staff invitations, role/permission handling, and Google/Microsoft SSO configuration.
 - Integrated OpenAI-backed assistant and document workflows, including intent classification, bounded server-side provider calls, document tailoring, suggested edits, embeddings, and no-PHI guardrails.
 - Developed product areas for organization profile/facts, recommended work, documents and approvals, staff roster, vendor/BAA tracking, security risk assessment, training, audit history, and portable organization exports.
@@ -80,7 +88,7 @@ Private SaaS product project | 2026
 
 Global nonprofit organization | Aug 2015 - Sept 2025
 
-Details available upon request.
+Organization name omitted on this public profile for privacy; details available in application/interview context.
 
 Roles included Application Support Team Member, Operations Specialist, and Agile Facilitator.
 
@@ -116,7 +124,7 @@ Specialty Pool Products | East Windsor, CT | 2002 - 2005
 
 ### Ellington High School
 
-Ellington, CT  
+Ellington, CT
 Class of 1999
 
 ### Asnuntuck Community College

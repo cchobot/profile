@@ -1,0 +1,40 @@
+name: Smoke Test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Compile Time Tracker
+        run: python -m py_compile helpful-scripts/time-tracker/timetracker.py
+
+      - name: Run Time Tracker smoke test
+        env:
+          TIMETRACKER_DB: ${{ runner.temp }}/timetracker.db
+        run: |
+          python helpful-scripts/time-tracker/timetracker.py status
+          python helpful-scripts/time-tracker/timetracker.py start support "investigate login issue"
+          python helpful-scripts/time-tracker/timetracker.py status
+          python helpful-scripts/time-tracker/timetracker.py stop support
+          python helpful-scripts/time-tracker/timetracker.py add support "1 hour"
+          python helpful-scripts/time-tracker/timetracker.py subtract support "30 minutes"
+          python helpful-scripts/time-tracker/timetracker.py report today
+
+      - name: Ensure no SQLite databases were created in the repo
+        run: |
+          if find . -type f \( -name "*.db" -o -name "*.sqlite" -o -name "*.sqlite3" \) | grep .; then
+            echo "Database files should not be committed or generated inside the repository."
+            exit 1
+          fi

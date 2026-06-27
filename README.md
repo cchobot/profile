@@ -1,74 +1,50 @@
 # Chris Chobot
 
-Technical support specialist focused on complex application support, customer-facing troubleshooting, integrations, data investigation, and practical automation.
+Technical support and application support specialist focused on complex SaaS troubleshooting, integrations, logs, data investigation, customer communication, and practical automation.
 
-This repository is the public home for my professional profile. It is intended to make my resume, work examples, and supporting documentation easier to maintain, review, and share with employers.
+This is a public, sanitized profile and work-sample repository for Product Support Engineer, Technical Support Engineer, Application Support, and Support Operations roles. It collects my resume, support case studies, practical templates, and small utilities that show how I approach support work without exposing private customer or organizational data.
 
-## Current Focus
+## Quick Links
+
+- [Resume](resume.md)
+- [Product Support Fit / Evidence Map](product-support-fit.md)
+- [Support Case Studies](support-case-studies/)
+- [Support Artifacts](support-artifacts/)
+- [Helpful Scripts](helpful-scripts/)
+
+## What This Demonstrates
+
+| Role signal | Evidence in this repo |
+| --- | --- |
+| Complex troubleshooting | [Support case studies](support-case-studies/) that separate user symptoms from root cause |
+| API/integration investigation | [API integration troubleshooting checklist](support-artifacts/api-integration-troubleshooting-checklist.md) and resume experience with request/response analysis |
+| Log and data investigation | [Log investigation checklist](support-artifacts/log-investigation-checklist.md), [SQL investigation notes template](support-artifacts/sql-investigation-notes-template.md), and resume examples using logs, correlation IDs, SQL, and user context |
+| Customer communication | [Customer update template](support-artifacts/customer-update-template.md) and support-focused resume experience |
+| Escalation quality | [Technical escalation template](support-artifacts/technical-escalation-template.md) and examples of escalating with evidence after responsible support investigation |
+| Documentation/support enablement | [Support enablement note template](support-artifacts/support-enablement-note-template.md), case-study lessons, and resume documentation work |
+| Automation and leverage | [Time Tracker](helpful-scripts/time-tracker/) and resume experience with PowerShell/Python automation |
+| Ownership/continuous improvement | Product support evidence map, memorable lessons, and examples of turning repeated issues into better process, documentation, or product feedback |
+
+## Product Support Focus
 
 I am targeting Product Support Engineer, Technical Support Engineer, Application Support, and Support Operations roles where strong customer communication and deep troubleshooting both matter.
 
-The kind of role I am aiming for emphasizes:
+The work I want to keep doing sits at the intersection of customer care and technical investigation: understanding the workflow, gathering and inspecting evidence, reproducing what I can, resolving what I responsibly can, and escalating with enough context that engineering can keep the issue moving without avoidable rework.
 
-- Diagnosing technical issues across software applications, APIs, integrations, logs, and customer workflows
-- Explaining technical findings clearly to customers, support teammates, and engineering teams
-- Writing useful documentation and support enablement material
-- Identifying patterns in support issues and turning them into product or process improvements
-- Working independently in a fast-moving environment while collaborating closely with engineering and customer success
-
-## Why Support
-
-Support work fits me because it brings together two things I have always cared about: making order out of messy problems and helping people feel taken care of.
-
-One of my earliest memories is organizing the canned goods on my mom's lazy Susan because I liked seeing things put in order. That instinct still shows up in how I troubleshoot: I like untangling symptoms, logs, customer context, and system behavior until the real issue becomes clear.
-
-The other part is people. People are amazing, and helping them feels good. Moving someone from stuck to unstuck brings real joy, and over time those moments build trust and relationships. When I can fix a technical issue, explain what happened, and leave someone feeling genuinely helped, that is the kind of work I want to keep doing.
-
-## How I Work
-
-I work best in environments where support is treated as both customer care and technical investigation. When a customer reports a problem, I want to understand the workflow, gather and inspect the evidence, reproduce what I can, document what I learn, and resolve as much as I responsibly can. When engineering involvement is the right next step, I want to escalate with enough context, evidence, and clarity that the issue can keep moving without avoidable rework.
-
-The habits I try to bring to that work:
-
-- Start with the problem and the evidence before assuming the answer
-- Communicate with enough context that the next person can act without re-discovering the same details
-- Own issues through follow-up, especially when the answer crosses teams or systems
-- Look for repeat patterns that can become documentation, automation, product feedback, or process improvements
-- Balance urgency with durable fixes, so customers get timely help without creating avoidable rework
-- Stay open to feedback and better ideas, particularly when a teammate has closer context
-
-## Resume
-
-- [Resume](resume.md)
-
-## Experience
-
-- 15+ years supporting users and systems across varied domains, including healthcare, e-commerce, ERP, order management, hosting, and other operational environments
-- Experience investigating issues with SQL, logs, JSON payloads, webhooks, APIs, DNS, email systems, and hosting environments
-- Strong customer-facing communication with a track record of translating technical issues into clear next steps
-- Practical scripting and automation experience with PowerShell and Python
-- Documentation, onboarding, training, and cross-functional support experience
-
-## Memorable Issues
+## Support Case Studies
 
 These are memorable issues that taught me something I want to remember:
 
-- [The app was not frozen. The window was off-screen.](memorable-issues/access-vba-offscreen-modal.md)
-- [The feature worked in testing. Launch-day load found the real limit.](memorable-issues/launch-day-search-load.md)
-- API and integration problems where the failure only becomes clear after comparing payloads, logs, and user workflow
-- SQL investigations used to validate data, explain behavior, or separate application issues from configuration or workflow issues
-- Email, DNS, authentication, or hosting issues where several systems have to be checked before the root cause is obvious
-- Documentation or process improvements that came out of repeated support questions
+- [The app was not frozen. The window was off-screen.](support-case-studies/access-vba-offscreen-modal.md)
+- [The feature worked in testing. Launch-day load found the real limit.](support-case-studies/launch-day-search-load.md)
 
-## Helpful Scripts
+## Why Support
 
-This repository also holds small scripts I use while troubleshooting, investigating logs, validating data, or automating repeat support tasks.
+Support work fits me because it brings together two things I have always cared about: making order out of messy problems and helping people. Moving someone from stuck to unstuck brings real joy, and over time those moments build trust and relationships.
 
-- [Time Tracker](helpful-scripts/time-tracker/): a small Python utility for keeping better notes on where support and project time goes
-- Log parsing helpers for narrowing down errors, authentication failures, or suspicious patterns
-- API request and response inspection utilities for checking payloads, status codes, and webhook behavior
-- SQL snippets for investigation, validation, and repeatable data checks
-- PowerShell and Python scripts for reporting, monitoring, cleanup, or operational follow-up
+## Sanitization Note
+
+All examples in this repository are generalized and sanitized. They do not include customer data, PHI, secrets, credentials, private URLs, or confidential organizational details.
 
 ## Contact
 

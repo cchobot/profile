@@ -18,9 +18,14 @@ Run commands directly from this folder:
 python .\timetracker.py status
 ```
 
-This folder includes a sanitized starter database, `timetracker.db`, with the schema already created and no time entries.
+The SQLite database is created automatically on first run as `timetracker.db` next to `timetracker.py`. The database contains local work history after use and is intentionally ignored by git.
 
-If `timetracker.db` is missing, the script creates it automatically on first run next to `timetracker.py`. For real personal tracking, remember that this database will contain local work history after use.
+To keep the database somewhere else, set `TIMETRACKER_DB` before running commands:
+
+```powershell
+$env:TIMETRACKER_DB = "$PWD\local.timetracker.db"
+python .\timetracker.py status
+```
 
 To add a PowerShell shortcut, open your PowerShell profile:
 
@@ -126,3 +131,5 @@ Time Tracker stores rows in a `sessions` table:
 - Reports include stopped sessions, currently running sessions, and correction rows for the selected period.
 
 Session time is counted only for the portion that overlaps the selected period. Corrections count on the date they are created.
+
+See [schema.sql](schema.sql) for the SQLite schema.
