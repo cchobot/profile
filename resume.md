@@ -1,8 +1,8 @@
 # Chris Chobot
 
-Newport, RI
-chobot1220@gmail.com
-LinkedIn: https://www.linkedin.com/in/chris-chobot-08961a382/
+Newport, RI<br>
+chobot1220@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/chris-chobot-08961a382/<br>
 GitHub/Portfolio: https://github.com/cchobot/profile
 
 ## Target Roles
@@ -12,13 +12,6 @@ Product Support Engineer, Technical Support Engineer, Application Support Specia
 ## Professional Summary
 
 Technical Support Specialist with 15+ years of experience supporting healthcare, e-commerce, ERP, SaaS, and other complex business applications. Strong background in Tier 2+ troubleshooting, SQL-based investigation, API and integration debugging, log analysis, customer communication, documentation, onboarding, and support operations.
-
-## Selected Product Support Evidence
-
-- [Product Support Fit / Evidence Map](product-support-fit.md)
-- [Support Case Studies](support-case-studies/)
-- [Support Artifacts](support-artifacts/)
-- [Time Tracker script](helpful-scripts/time-tracker/)
 
 ## Core Skills
 
@@ -138,3 +131,10 @@ Coursework in QuickBooks and Accounting
 - Practical support experience across healthcare, e-commerce, hosting, and operational systems.
 - Comfortable documenting reproduction steps, reporting issues internally, and helping teams understand recurring support patterns.
 - Able to contribute to knowledge bases, support enablement, and continuous improvement efforts.
+
+## Supporting Links
+
+- [Product Support Fit / Evidence Map](product-support-fit.md)
+- [Support Case Studies](support-case-studies/)
+- [Support Artifacts](support-artifacts/)
+- [Time Tracker script](helpful-scripts/time-tracker/)
