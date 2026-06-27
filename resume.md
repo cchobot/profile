@@ -82,9 +82,12 @@ Global nonprofit organization | Aug 2015 - Sept 2025
 
 Details available upon request.
 
-Roles included Application Support Team Member, Operations Specialist, and Facilitator.
+Roles included Application Support Team Member, Operations Specialist, and Agile Facilitator.
 
 - Provided end-user support for Athena Practice EMR, troubleshooting configuration issues, workflow disruptions, and unexpected system behavior across clinical and administrative users.
+- Supported a large multi-domain internal application used across accounting, purchasing, healthcare, planning, scheduling, project management, and other operational workflows.
+- Processed user-submitted bug reports and feedback requests, reproducing issues, gathering evidence, resolving support-owned items, and escalating with clear technical context when engineering involvement was the right next step.
+- Used built-in API request viewer tooling, detailed application logs, correlation IDs, user context, and workflow details to investigate reported issues and separate user, data, configuration, and application behavior.
 - Diagnosed recurring issues and coordinated with technical teams to resolve bugs, system limitations, and workflow problems.
 - Managed and prioritized support requests using Redmine, maintaining clear communication and timely follow-up.
 - Translated user-reported issues into detailed, actionable reports for technical teams.
