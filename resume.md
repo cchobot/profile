@@ -2,7 +2,8 @@
 
 Newport, RI
 chobot1220@gmail.com
-LinkedIn: https://www.linkedin.com/in/chris-chobot-08961a382/ | GitHub/Portfolio: https://github.com/cchobot/profile
+LinkedIn: https://www.linkedin.com/in/chris-chobot-08961a382/
+GitHub/Portfolio: https://github.com/cchobot/profile
 
 ## Target Roles
 
