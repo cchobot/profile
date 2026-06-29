@@ -6,7 +6,8 @@ This is a public, sanitized profile and work-sample repository for Product Suppo
 
 ## Quick Links
 
-- [Resume](resume.md)
+- [Resume Markdown](resume.md)
+- [Resume PDF](output/pdf/chris-chobot-resume.pdf)
 - [Product Support Fit / Evidence Map](product-support-fit.md)
 - [Support Case Studies](support-case-studies/)
 - [Support Artifacts](support-artifacts/)
